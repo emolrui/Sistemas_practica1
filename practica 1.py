@@ -33,6 +33,9 @@ class Compra:
         for articulo in self.compra:
             if articulo["codigo"] == codigo_busq:
                 print("Codigo", articulo["codigo"])
+                print("Nombre", articulo["nombre"])
+                print("Descripcion", articulo["descripcion"])
+                print("Precio", articulo["precio"],"\n")
         
     def modificar(self,codigo_mod):
         for articulo in self.compra:
