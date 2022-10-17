@@ -52,10 +52,11 @@ class Compra:
                 print("No se ha modificado el producto")
     
 #Comprobaciones de cada uno de los metodos
-''' nuevoArticulo= Articulo("cod2","ordenador","14","es un ordenador")
+nuevoArticulo= Articulo("cod2","ordenador","14","es un ordenador")
 compra1 = Compra()
 compra1.agregar(nuevoArticulo)
 compra1.listar()
+compra1.buscar("cod2")
+compra1.modificar("cod2")
 compra1.baja("cod2")
-compra1.modificar("cod2") '''
 
